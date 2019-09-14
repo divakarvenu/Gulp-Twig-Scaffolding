@@ -1,0 +1,28 @@
+.contact-section{
+    display:grid;
+    grid-template-rows: 20% 80%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-image: url("img/intro-section.jpeg");
+    position: relative;
+    color:white;
+
+    .contact-overlay {
+        bottom: 0;
+        left: 0;
+        opacity: .5;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 0; 
+    }
+
+    .contact-section-content{
+        position:relative;
+    }
+
+    .contact-section-text{
+        text-align: center;
+    }
+}

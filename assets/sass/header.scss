@@ -1,0 +1,64 @@
+  .navbar-section {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:10px;
+    background-color:black;
+  
+    .mobileNav{
+      color: white;
+      height: 25px;
+      width: 40px;
+      span{
+        display:table;
+        margin:0 auto;
+        font-size:24px;
+      }
+    }
+  
+    .companyDetail{
+      .companyDetail-name{
+         .firstName{
+          color:white;
+         }
+         .lastName{
+           color:red
+         }
+      }
+    }
+  
+    .navigation{
+      display:flex;
+      justify-content:space-between;
+      align-items: center;
+  
+      .navigationBar{
+        display:none;
+        margin-right:10px;
+        a {
+          color:white;
+          outline: none;
+          text-decoration: none;
+        }
+      }
+  
+      .getQuote{
+        text-align: center;
+        margin-right:5px;
+        border-radius: 25px;
+        width: 50px;
+        height:50px;
+       // background-color:orange;
+        font-size:24px;
+        color:white;
+  
+        h5{
+          margin-top: 14px;
+        }
+  
+        .getQuote-text{
+          display:none;
+        }
+      }
+    }
+  }

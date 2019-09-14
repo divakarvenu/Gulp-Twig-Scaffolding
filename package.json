@@ -1,0 +1,42 @@
+{
+  "name": "axelerant-interview-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:axelerant/Interview-Front-end.git",
+  "author": "Bassam Ismail <skippednote@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "src/**/*.js": "eslint",
+    "src/**/*.scss": "stylelint",
+    "*.{js,scss}": [
+      "prettier --write --single-quote --print-width 80",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "breakpoint-sass": "^2.7.1",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-stylelint": "^9.0.0",
+    "gulp-twig": "^1.2.0",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "normalize.scss": "^0.1.0",
+    "prettier": "^1.17.0",
+    "sass-toolkit": "^2.10.2",
+    "stylelint": "^10.0.1",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-scss": "^3.5.4"
+  }
+}

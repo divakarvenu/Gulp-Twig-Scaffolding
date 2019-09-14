@@ -1,0 +1,45 @@
+.intro-section{
+    display: grid;
+    grid-template-rows: 40% 50%;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    background-image:url('img/intro-section.jpeg');
+    color:white;
+    position: relative;
+
+    .intro-overlay {
+      bottom: 0;
+      left: 0;
+      opacity: .5;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 0;
+    }
+
+    .intro-section-content {
+      position: relative;
+    }
+  
+    .intro-section-service{
+      .service_box{
+        width:300px;
+        height:100px;
+        border:1px solid grey;
+        margin-top:10px;
+        justify-content: start;
+        align-items: center;
+        padding: 20px;
+        display:flex;
+      }
+      .service_logo{
+        font-size:24px;
+        color:orange;
+      }
+      .service_text{
+        margin-left:10px;
+      }
+    }
+  
+  }

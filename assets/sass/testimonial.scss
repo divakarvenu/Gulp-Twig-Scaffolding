@@ -1,0 +1,76 @@
+.testimonial-section{
+    display: grid;
+    grid-template-row: 35% 35% 35%;
+    background-color:#EEEEEE;
+    padding:20px;
+
+    .testimonial {
+        background: #fff;
+        text-align: center;
+        margin: 0 20px;
+        .description {
+            padding: 40px 30px;
+            margin-bottom: 50px;
+            border-top: 1px solid #2660a4;
+            border-left: 1px solid #2660a4;
+            border-right: 1px solid #2660a4;
+            font-size: 15px;
+            color: #887e7f;
+            line-height: 30px;
+            text-align: left;
+            position: relative;
+            &:before {
+                content: "\f10e";
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                display: inline-block;
+                float: left;
+                padding: 0 15px 5px 0;
+                font-size: 30px;
+                color: #ff5a5f;
+                text-align: center;
+                position: relative;
+                top: 8px;
+                left: 0;
+            }
+            &:after {
+                content: "";
+                width: 100%;
+                height: 1px;
+                background: #2660a4;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+        }
+        .testimonial-content {
+            position: relative;
+            &:before {
+                content: "";
+                width: 1px;
+                height: 20px;
+                background: #2660a4;
+                position: absolute;
+                top: -50px;
+                left: 0;
+            }
+            &:after {
+                content: "";
+                width: 2px;
+                height: 20px;
+                background: #2660a4;
+                position: absolute;
+                top: -50px;
+                left: 0;
+                transform: skewX(-45deg);
+                transform-origin: 100% 100% 0;
+            }
+        }
+        .pic{
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+        }
+    }
+    
+}
